@@ -5,19 +5,20 @@ Bài viết này được tham khảo tran w3schools.com và một số nguồn 
 ---
 
 ## Phụ lục
-[I. HTML Semantic là gì ?](#html-semantic-elements)
-[II. Các phần tử Semantic trong HTML](#)
-[III. Một số thẻ Semantic trong HTML](#)
-    &nbsp; &nbsp;  [1. Thẻ *<section*> ](#ii-các-phần-tử-semantic-trong-html) 
-    &nbsp; &nbsp;   [2. Thẻ *<article*>](#)
-    &nbsp; &nbsp;   [3. Có thể lồng ghép thẻ *<article*> trong thẻ *<*section> hoặc ngược lại ?](#)
-    &nbsp; &nbsp;   [4. Thẻ *<header*>](#)
-    &nbsp; &nbsp;   [5. Thẻ *<footer*>](#)
-    &nbsp; &nbsp;   [6. Thẻ *<nav*>](#)
-    &nbsp; &nbsp;   [7. Thẻ *<aside*>](#)
-    &nbsp; &nbsp;   [8. Thẻ *<figure*> và *<figcation*>](#)
-[IV. Một số thẻ phụ và demo của nó](#)
-[V. Tại sao sử dụng Semantic Element và phần kết](#)
+
+[I. HTML Semantic là gì ?](#html-semantic-elements)\
+[II. Các phần tử Semantic trong HTML](#)\
+[III. Một số thẻ Semantic trong HTML](#)\
+    &nbsp; &nbsp;  [1. Thẻ *<section*> ](#ii-các-phần-tử-semantic-trong-html) \
+    &nbsp; &nbsp;   [2. Thẻ *<article*>](#)\
+    &nbsp; &nbsp;   [3. Có thể lồng ghép thẻ *<article*> trong thẻ *<*section> hoặc ngược lại ?](#)\
+    &nbsp; &nbsp;   [4. Thẻ *<header*>](#)\
+    &nbsp; &nbsp;   [5. Thẻ *<footer*>](#)\
+    &nbsp; &nbsp;   [6. Thẻ *<nav*>](#)\
+    &nbsp; &nbsp;   [7. Thẻ *<aside*>](#)\
+    &nbsp; &nbsp;   [8. Thẻ *<figure*> và *<figcation*>](#)\
+[IV. Một số thẻ phụ và demo của nó](#)\
+[V. Tại sao sử dụng Semantic Element và phần kết](#)\
 
 ---
 ### I. HTML Semantic là gì ?

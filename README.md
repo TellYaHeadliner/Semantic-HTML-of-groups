@@ -18,7 +18,7 @@ Bài viết này được tham khảo tran w3schools.com và một số nguồn 
     &nbsp; &nbsp;   [7. Thẻ *<aside*>](#)\
     &nbsp; &nbsp;   [8. Thẻ *<figure*> và *<figcation*>](#)\
 [IV. Một số thẻ phụ và demo của nó](#)\
-[V. Tại sao sử dụng Semantic Element và phần kết](#)\
+[V. Tại sao sử dụng Semantic Element và phần kết](#)
 
 ---
 ### I. HTML Semantic là gì ?

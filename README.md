@@ -37,6 +37,7 @@ Có ai hai loại Semantic đó là : **non-semantic** và **semantic**
 <b>Non-semantic</b> là những thẻ không có định nghĩa rõ ràng, ví dụ như : thẻ  ``*<div*>`` dùng để định nghĩa một thành phần hay một bộ phận,hay dùng để định nghĩa một class , ví dụ như `*<div class="image"*>` , vì nó dùng để định nghĩa định nghĩa một thành phần hay bộ phận nên nó không có chức năng. Hay thẻ ``<span>`` chỉ dùng để chứa đánh dấu thuộc tính style,CSS hoặc Javascript , ví dụ như :
 ``<p>My mother has <span style="color:blue">blue</span> eyes.</p>``\
 thì thẻ ``<span>`` định nghĩa thuộc tính ``style`` của nó là ``"color:blue"`` nghĩa là màu chữ blue là màu xanh biển ,xuất ra kết quả:
+
 <pre>
     <p>My mother has <span style="color:blue">blue</span> eyes.</p>
 </pre>

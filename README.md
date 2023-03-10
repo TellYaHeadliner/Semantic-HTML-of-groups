@@ -166,6 +166,7 @@ Nav là từ viết tắt của navigation
 <div>
 <nav>
         <a href="#">HTML</a> | 
+        <a href="#">CSS |
         <a href="#">JavaScript</a> | 
         <a href="#">jQuery</a> 
     </nav>

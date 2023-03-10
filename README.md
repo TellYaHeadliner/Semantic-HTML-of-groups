@@ -42,11 +42,6 @@ thì thẻ ``<span>`` định nghĩa thuộc tính ``style`` của nó là ``"co
     <p>My mother has <span style="color:blue">blue</span> eyes.</p>
 </pre>
 
-<<<<<<< HEAD
-=======
----
->>>>>>> 8e44815ae9487a766b0cfa20085b6e280a3346cd
-
 ### II. Các phần tử Semantic trong HTML
 Rất nhiều trang web chứa các thẻ HTML được lập trình viên code như : ``<div id="nav> <div id ="header"> <div id="footer>`` để định nghĩa về nav,header và footer
 Trong HTML,có những phần tử có nghĩa được định nghĩa để sử dụng các phần khác nhau trong trang web như :    

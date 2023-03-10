@@ -1,4 +1,5 @@
 # HTML Semantic Elements
+
 ---
 
 Bài viết này được tham khảo tran w3schools.com và một số nguồn khác.
@@ -40,8 +41,8 @@ Công cụ hỗ trợ
 Hầu hết các trình duyệt mới hiện nay đều hỗ trợ semantic elements.
 
 ### II. Các phần tử Semantic trong HTML
-Rất nhiều trang web chứa các thẻ HTML được lập trình viên code như : ``<div id="nav> <div id ="header"> <div id="footer>`` để định nghĩa về nav,header và footer
-Trong HTML,có những phần tử có nghĩa được định nghĩa để sử dụng các phần khác nhau trong trang web như :    
+Rất nhiều trang web chứa các thẻ HTML được lập trình viên code như : ``<div id="nav> <div id ="header"> <div id="footer>`` để định nghĩa về nav,header và footer do HTML họ sử dụng cũ chưa định nghĩa các thẻ semantic
+Trong HTML5,có những phần tử có nghĩa được định nghĩa mới để sử dụng các phần khác nhau trong trang web như :    
 + `<article>`
 + `<aside>`
 + `<details>`

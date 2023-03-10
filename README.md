@@ -53,10 +53,8 @@ Trong HTML,có những phần tử có nghĩa được định nghĩa để sử
 + `<summary>`
 + `<time>`
 
-<figure>
-  <img src="semantic_HTML.png" alt="Description of image">
-  <p style="text-align: center;"> Ví dụ về Semantic có định nghĩa</p>
-</figure>
+<img src="semantic_HTML.png" alt="Description of image">
+<p style="text-align: center;"> Ví dụ về Semantic có định nghĩa</p>
 
 
 

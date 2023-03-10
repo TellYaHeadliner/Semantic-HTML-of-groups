@@ -74,27 +74,16 @@ Ví dụ: trang chủ của một trang web có thể được chia thành các 
     <h2>Giới thiệu Doraemon</h2>`
     <p>Doraemon là nhân vật chính hư cấu trong loạt Manga cùng tên của họa sĩ Fujiko F. Fujio. Trong truyện lấy bối cảnh ở thế kỷ 22, Doraemon là chú mèo robot của tương lai do xưởng Matsushiba — công xưởng chuyên sản xuất robot.</p>
 </section>
- 
-<section>
-    <h2>Sứ mệnh của Doraemon</h2>`
-    <p>Giúp đỡ Nobita và những trẻ em khác.</p>`
-</section>
 ```
 
 Khi render ra kết quả sẽ là:
-
 <pre>
-    <code>
+<html>
     <section>
         <h2>Giới thiệu Doraemon</h2>
         <p>Doraemon là nhân vật chính hư cấu trong loạt Manga cùng tên của họa sĩ Fujiko F. Fujio. Trong truyện lấy bối cảnh ở thế kỷ 22, Doraemon là chú mèo robot của tương lai do xưởng Matsushiba — công xưởng chuyên sản xuất robot. </p>
     </section>
-
-        <section>
-        <h2>Sứ mệnh của Doraemon</h2>
-        <p>Giúp đỡ Nobita và những trẻ em khác.</p>
-       </section>
-    </code>
+</html>
 </pre>
 
 #### 2. Thẻ *<article*>

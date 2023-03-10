@@ -7,9 +7,9 @@ Bài viết này được tham khảo tran w3schools.com và một số nguồn 
 
 ## Phụ lục
 [I. HTML Semantic là gì ?](#html-semantic-elements)\
-[II. Các phần tử Semantic trong HTML](#)\
+[II. Các phần tử Semantic trong HTML](#ii-các-phần-tử-semantic-trong-html)\
 [III. Một số thẻ Semantic trong HTML](#)\
-    &nbsp; &nbsp;  [1. Thẻ *<section*> ](#ii-các-phần-tử-semantic-trong-html) \
+    &nbsp; &nbsp;  [1. Thẻ *<section*> ](#iii-một-số-thẻ-semantic-trong-html) \
     &nbsp; &nbsp;   [2. Thẻ *<article*>](#)\
     &nbsp; &nbsp;   [3. Có thể lồng ghép thẻ *<article*> trong thẻ *<*section> hoặc ngược lại ?](#)\
     &nbsp; &nbsp;   [4. Thẻ *<header*>](#)\
@@ -54,7 +54,10 @@ Trong HTML,có những phần tử có nghĩa được định nghĩa để sử
 + `<time>`
 
 <img src="semantic_HTML.png" alt="Description of image">
-<p style="text-align: center;"> Ví dụ về Semantic có định nghĩa</p>
+
+---
+
+### III. Một số thẻ Semantic trong HTML
 
 
 

@@ -35,6 +35,7 @@ thì thẻ ``<span>`` định nghĩa thuộc tính ``style`` của nó là ``"co
 
 Công cụ hỗ trợ 
 ![browser support](https://images.viblo.asia/3a87a122-896a-4192-94e6-7d0bf700c40f.png)
+
 Hầu hết các trình duyệt mới hiện nay đều hỗ trợ semantic elements.
 
 ### II. Các phần tử Semantic trong HTML

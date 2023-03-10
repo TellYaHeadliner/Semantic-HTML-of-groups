@@ -12,12 +12,11 @@ Bài viết này được tham khảo trên w3schools.com và một số nguồn
 [III. Một số thẻ Semantic trong HTML](#iii-một-số-thẻ-semantic-trong-html)\
     &nbsp; &nbsp;  [1. Thẻ *<section*> ](#1-thẻ-section) \
     &nbsp; &nbsp;   [2. Thẻ *<article*>](#2-thẻ-article)\
-    &nbsp; &nbsp;   [3. Có thể lồng ghép thẻ *<article*> trong thẻ *<*section> hoặc ngược lại ?](#3-thẻ-article-có-thể-ở-trong-section-hoặc-ngược-lại)\
-    &nbsp; &nbsp;   [4. Thẻ *<header*>](#4-thẻ-header)\
-    &nbsp; &nbsp;   [5. Thẻ *<footer*>](#4-thẻ-header)\
-    &nbsp; &nbsp;   [6. Thẻ *<nav*>](#6-thẻ-nav)\
-    &nbsp; &nbsp;   [7. Thẻ *<aside*>](#7-thẻ-aside)\
-    &nbsp; &nbsp;   [8. Thẻ *<figure*> và *<figcation*>](#8-thẻ-figure-và-figcation)\
+    &nbsp; &nbsp;   [3. Thẻ *<header*>](#3-thẻ-header)\
+    &nbsp; &nbsp;   [4. Thẻ *<footer*>](#4-thẻ-header)\
+    &nbsp; &nbsp;   [5. Thẻ *<nav*>](#5-thẻ-nav)\
+    &nbsp; &nbsp;   [6. Thẻ *<aside*>](#6-thẻ-aside)\
+    &nbsp; &nbsp;   [7. Thẻ *<figure*> và *<figcation*>](#7-thẻ-figure-và-figcation)\
 [IV. Một số thẻ phụ](#iv-một-số-thẻ-phụ)\
 [V. Tại sao sử dụng Semantic Element và phần kết](#v-tại-sao-sử-dụng-semantic-element-và-phần-kết)
 
@@ -74,85 +73,45 @@ Ví dụ: trang chủ của một trang web có thể được chia thành các 
     <h2>Giới thiệu Doraemon</h2>`
     <p>Doraemon là nhân vật chính hư cấu trong loạt Manga cùng tên của họa sĩ Fujiko F. Fujio. Trong truyện lấy bối cảnh ở thế kỷ 22, Doraemon là chú mèo robot của tương lai do xưởng Matsushiba — công xưởng chuyên sản xuất robot.</p>
 </section>
+ 
+<section>
+    <h2>Sứ mệnh của Doraemon</h2>`
+    <p>Giúp đỡ Nobita và những trẻ em khác.</p>`
+</section>
 ```
 
 Khi render ra kết quả sẽ là:
+
 <pre>
-<html>
     <section>
         <h2>Giới thiệu Doraemon</h2>
         <p>Doraemon là nhân vật chính hư cấu trong loạt Manga cùng tên của họa sĩ Fujiko F. Fujio. Trong truyện lấy bối cảnh ở thế kỷ 22, Doraemon là chú mèo robot của tương lai do xưởng Matsushiba — công xưởng chuyên sản xuất robot. </p>
     </section>
-</html>
+
+    <section>
+        <h2>Sứ mệnh của Doraemon</h2>
+        <p>Giúp đỡ Nobita và những trẻ em khác.</p>
+    </section>
 </pre>
 
 #### 2. Thẻ *<article*>
 **Element `<article>`** được sử dụng cho các nội dung độc lập và chứa nội dung của riêng nó. Nội dung bên trong **`<article>`** có ý nghĩa riêng biệt và có thể độc lập với các nội dung khác của trang web.
 
-#### 3. Thẻ *<article*> có thể ở trong *<section*> hoặc ngược lại ?
 
-Để trả lời câu hỏi trên chúng ta cần nên phải biết bản chất hai thẻ này :
-* Thẻ ``<article>`` là element độc lập,khép kín
-* Thẻ ``<section>`` là element xác định một phần chung trong tài liệu 
-
-Vậy bạn đã có câu trả lời cho việc thẻ ``<article>`` có ở trong thẻ ``<section>`` rồi ? Câu trả lời đó là không ! Bởi vì các phần tử ``<section>`` chứa các phần tử ``<article>``.Đây là ví dụ về nó trích câu hỏi ở Stackoverflow (https://stackoverflow.com/questions/9527378/should-sections-have-articles-or-should-articles-have-sections) :
-
-```
-<section><h1>section article?</h1>
-  <article><h1>art 1</h1>
-    <section><h1>sec 1.1</h1></section>
-    <section><h1>sec 1.2</h1></section>
-    <section><h1>sec 1.3</h1></section>
-  </article>
-  <article><h1>art 2</h1>
-    <section><h1>sec 2.1</h1></section>
-    <section><h1>sec 2.2</h1></section>
-    <section><h1>sec 2.3</h1></section>
-  </article>
-  <article><h1>art 3</h1>
-    <section><h1>sec 3.1</h1></section>
-    <section><h1>sec 3.2</h1></section>
-    <section><h1>sec 3.3</h1></section>
-  </article>
-</section>
-```
-
-Kết quả render:
-<pre>
-    <code>
-<section><h1>section article?</h1>
-    <article><h1>art 1</h1>
-        <section><h1>sec 1.1</h1></section>
-        <section><h1>sec 1.2</h1></section>
-        <section><h1>sec 1.3</h1></section>
-</article>
-    <article><h1>art 2</h1>
-        <section><h1>sec 2.1</h1></section>
-        <section><h1>sec 2.2</h1></section>
-        <section><h1>sec 2.3</h1></section>
-</article>
-    <article><h1>art 3</h1>
-        <section><h1>sec 3.1</h1></section>
-        <section><h1>sec 3.2</h1></section>
-        <section><h1>sec 3.3</h1></section>
-</article>
-</section>
-    </code>
-</pre>
-
-
-#### 4. Thẻ *<header*>
+#### 3. Thẻ *<header*>
 **Element `<header>`** xác định phần đầu của một trang tài liệu hay phần đầu của một đoạn. Nó được sử dụng như một containter chứa nội dung giới thiệu hoặc mở đầu.
 
 Chúng ta có thể sử dụng một hoặc nhiều phần tử **`<header>`** trong một tài liệu.
 
->`<article>`
-  ` ` ` ` `<header>`
-    ` ` ` ` `<h1>WWF làm gì?</h1>`
-    ` ` ` ` `<p>Sứ mệnh của WWF:</p>`
-  `</header>`
-  ` ` ` ` `<p>Sứ mệnh của WWF là ngăn chặn sự xuống cấp môi trường tự nhiên của hành tinh chúng ta và xây dựng một tương lai trong đó con người sống hài hòa với thiên nhiên.</p>`
-`</article>`
+```
+<article>
+  <header>
+    <h1>WWF làm gì?</h1>
+    <p>Sứ mệnh của WWF:</p>
+  </header>
+    <p>Sứ mệnh của WWF là ngăn chặn sự xuống cấp môi trường tự nhiên của hành tinh chúng ta và xây dựng một tương lai trong đó con người sống hài hòa với thiên nhiên.</p>
+</article>
+```
 
 Kết quả render ra:
 <pre>
@@ -167,13 +126,27 @@ Kết quả render ra:
 </code>
 </pre>
 
-#### 5. Thẻ *<footer*>
->`<footer>`
-  ` ` ` ` `<p>Liên hệ với chúng tôi</p>`
-  ` ` ` ` `<p>13F Keangnam Landmark 72 Tower, Plot E6, Pham Hung Road, Nam Tu Liem District., Ha Noi</p>`
-  ` ` ` ` `<p>Thời gian làm việc: Từ 7h45 - 15:45h (Thứ 2 đến thứ 6)</p>`
-  ` ` ` ` `<p>Hotline: 84-24-3795-5417</p>`
-`</footer>`
+#### 4. Thẻ *<footer*>
+Thẻ ``<footer>`` xác định phần chân cho một tài liệu   hoặc một phần.
+Một phần tử ``<footer>`` phải chứa thông tin về phần tử chứa nó.
+Một phần tử ``<footer>`` thường chứa:
+
+* Thông tin tác giả
+* Thông tin bản quyền
+* Thông tin liên lạc
+* Sitemap
+* Liên kết trở lại đầu trang
+* Tài liệu liên quan
+Có thể có nhiều phần tử ``<footer>`` trong một tài liệu
+
+```
+<footer>
+  <p>Liên hệ với chúng tôi</p>
+  <p>13F Keangnam Landmark 72 Tower, Plot E6, Pham Hung Road, Nam Tu Liem District., Ha Noi</p>
+  <p>Thời gian làm việc: Từ 7h45 - 15:45h (Thứ 2 đến thứ 6)</p>
+  <p>Hotline: 84-24-3795-5417</p>
+</footer>
+```
 
 Kết quả render:
 <pre>
@@ -185,7 +158,7 @@ Kết quả render:
 </code>
 </pre>
 
-#### 6. Thẻ *<nav*>
+#### 5. Thẻ *<nav*>
 **Thẻ `<nav>`** được dùng để bao bọc các vị trí liên quan đến liên kết và điều hướng chính cho trang web. Thường đó sẽ là các menu chính, menu phụ, danh sách chuyên mục bên sidebar ...
 Nav là từ viết tắt của navigation
 >`<h2>Khóa học có tại freetuts.net</h2>`
@@ -201,7 +174,7 @@ Nav là từ viết tắt của navigation
 Kết quả render ra (Sử dụng ảnh render không thể xuất ra trong Markdown như mong muốn)
 ![vd tag nav](./demo_nav.png)
 
-#### 7. Thẻ *<aside*>
+#### 6. Thẻ *<aside*>
 Thẻ ``<aside>`` có tác dụng định nghĩa bên ngoài nội dung chính.Nó có thể chứa tất cả tag định dạng khác nhau trong HTML
 
 
@@ -225,7 +198,7 @@ Kết quả render xuất ra:
     </code>
 </pre>
 
-#### 8. Thẻ *<figure*> và *<figcation*>
+#### 7. Thẻ *<figure*> và *<figcation*>
 Đối với hai thẻ này thì ta phân tích lần lượt thẻ ``<figure>`` có chức năng bao quanh làm cha của thẻ ``<figcation>`` thường được chứa các bức ảnh,code,video.Còn thẻ ``<figcation>`` có chức năng chức caption ở dưới bức ảnh,video,hay code đó,ví dụ:
 
 ```

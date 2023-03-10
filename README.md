@@ -161,15 +161,16 @@ Kết quả render:
 #### 5. Thẻ *<nav*>
 **Thẻ `<nav>`** được dùng để bao bọc các vị trí liên quan đến liên kết và điều hướng chính cho trang web. Thường đó sẽ là các menu chính, menu phụ, danh sách chuyên mục bên sidebar ...
 Nav là từ viết tắt của navigation
->`<h2>Khóa học có tại freetuts.net</h2>`
-`<div>`
-` ` ` ` `<nav>`
-` ` ` ` ` ` ` <a href="#">HTML</a> | `
-` ` ` ` ` ` ` <a href="#">CSS</a> | `
-` ` ` ` ` ` ` <a href="#">JavaScript</a> | `
-` ` ` ` ` ` ` <a href="#">jQuery</a> `
-` ` ` ` `</nav>`
-`</div>`
+```
+<h2>Khóa học có tại freetuts.net</h2>
+<div>
+<nav>
+        <a href="#">HTML</a> | 
+        <a href="#">JavaScript</a> | 
+        <a href="#">jQuery</a> 
+    </nav>
+</div>
+```
 
 Kết quả render ra (Sử dụng ảnh render không thể xuất ra trong Markdown như mong muốn)
 ![vd tag nav](./demo_nav.png)

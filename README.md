@@ -2,7 +2,7 @@
 
 ---
 
-Bài viết này được tham khảo tran w3schools.com và một số nguồn khác.
+Bài viết này được tham khảo trên w3schools.com và một số nguồn khác.
 
 ---
 
@@ -69,15 +69,17 @@ Trong HTML5,có những phần tử có nghĩa được định nghĩa mới đ�
 Cụ thể hơn, một section là một nhóm các nội dung có cùng chủ đề.
 
 Ví dụ: trang chủ của một trang web có thể được chia thành các section như giới thiệu, nội dung, thông tin liên lạc, góp ý…
->`<section>`
-    ` ` ` ` `<h2>Giới thiệu Doraemon</h2>`
-    ` ` ` ` `<p>Doraemon là nhân vật chính hư cấu trong loạt Manga cùng tên của họa sĩ Fujiko F. Fujio. Trong truyện lấy bối cảnh ở thế kỷ 22, Doraemon là chú mèo robot của tương lai do xưởng Matsushiba — công xưởng chuyên sản xuất robot.</p>`
-`</section>`
-` `   
-`<section>`
-    ` ` ` ` `<h2>Sứ mệnh của Doraemon</h2>`
-    ` ` ` ` `<p>Giúp đỡ Nobita và những trẻ em khác.</p>`
-`</section>`
+```
+<section>
+    <h2>Giới thiệu Doraemon</h2>`
+    <p>Doraemon là nhân vật chính hư cấu trong loạt Manga cùng tên của họa sĩ Fujiko F. Fujio. Trong truyện lấy bối cảnh ở thế kỷ 22, Doraemon là chú mèo robot của tương lai do xưởng Matsushiba — công xưởng chuyên sản xuất robot.</p>
+</section>
+ 
+<section>
+    <h2>Sứ mệnh của Doraemon</h2>`
+    <p>Giúp đỡ Nobita và những trẻ em khác.</p>`
+</section>
+```
 
 Khi render ra kết quả sẽ là:
 

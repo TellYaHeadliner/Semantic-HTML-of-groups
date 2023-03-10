@@ -1,14 +1,11 @@
 # HTML Semantic Elements
 ---
-<<<<<<< HEAD
-=======
 
->>>>>>> 8e44815ae9487a766b0cfa20085b6e280a3346cd
 Bài viết này được tham khảo tran w3schools.com và một số nguồn khác.
+
 ---
 
 ## Phụ lục
-
 [I. HTML Semantic là gì ?](#html-semantic-elements)\
 [II. Các phần tử Semantic trong HTML](#)\
 [III. Một số thẻ Semantic trong HTML](#)\
@@ -24,10 +21,7 @@ Bài viết này được tham khảo tran w3schools.com và một số nguồn 
 [V. Tại sao sử dụng Semantic Element và phần kết](#)
 
 ---
-<<<<<<< HEAD
 
-=======
->>>>>>> 8e44815ae9487a766b0cfa20085b6e280a3346cd
 ### I. HTML Semantic là gì ?
 Semantic hay tên gọi đầy đủ là Semantic Elements khi dịch ra tiếng Việt nôm na hiểu rằng là "phần tử có nghĩa."
 \

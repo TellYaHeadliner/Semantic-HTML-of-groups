@@ -55,7 +55,7 @@ Trong HTML,có những phần tử có nghĩa được định nghĩa để sử
 
 <figure>
   <img src="semantic_HTML.png" alt="Description of image">
-  <figcaption><center>Ảnh minh họa về Semantic HTML có nghĩa(Nguồn:Semrush)</figcaption>
+  <p style="text-align: center;"> Ví dụ về Semantic có định nghĩa</p>
 </figure>
 
 

@@ -2,6 +2,7 @@
 <hr>
 Bài viết này được tham khảo tran w3schools.com và một số nguồn khác.
 <hr>
+
 ## Phụ lục
 [I. HTML Semantic là gì ?](#html-semantic-elements)
 [II. Các phần tử Semantic trong HTML](#)
@@ -16,8 +17,8 @@ Bài viết này được tham khảo tran w3schools.com và một số nguồn 
     &nbsp; &nbsp;   [8. Thẻ *<figure*> và *<figcation*>](#)
 [IV. Một số thẻ phụ và demo của nó](#)
 [V. Tại sao sử dụng Semantic Element và phần kết](#)
-
 <hr>
+
 ### I. HTML Semantic là gì ?
 Semantic hay tên gọi đầy đủ là Semantic Elements khi dịch ra tiếng Việt nôm na hiểu rằng là "phần tử có nghĩa."
 \

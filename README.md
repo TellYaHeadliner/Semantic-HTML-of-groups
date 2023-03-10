@@ -34,6 +34,7 @@ thì thẻ ``<span>`` định nghĩa thuộc tính ``style`` của nó là ``"co
 * Thẻ Semantic là thẻ có định nghĩa rõ ràng về thành phần rõ ràng và có thể sử dụng cho những thành phần khác trong web
 
 Công cụ hỗ trợ 
+
 ![browser support](https://images.viblo.asia/3a87a122-896a-4192-94e6-7d0bf700c40f.png)
 
 Hầu hết các trình duyệt mới hiện nay đều hỗ trợ semantic elements.

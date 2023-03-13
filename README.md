@@ -26,12 +26,10 @@ Bài viết này được tham khảo trên w3schools.com và một số nguồn
 Semantic hay tên gọi đầy đủ là Semantic Elements khi dịch ra tiếng Việt nôm na hiểu rằng là "phần tử có nghĩa."
 \
 Một Semantic Elements phải định nghĩa đầy đủ ý nghĩa của nó cho trình duyệt web và lập trình viên
-Có ai hai loại Semantic đó là : **non-semantic** và **semantic**
+Có ai hai loại Semantic đó là : **semantic** va **non-semantic**
 
-* <b>Non-semantic</b> là những thẻ không có định nghĩa rõ ràng, ví dụ như : thẻ  ``*<div*>`` dùng để định nghĩa một thành phần hay một bộ phận,hay dùng để định nghĩa một class , ví dụ như `*<div class="image"*>` , vì nó dùng để định nghĩa định nghĩa một thành phần hay bộ phận nên nó không có chức năng. Hay thẻ ``<span>`` chỉ dùng để chứa đánh dấu thuộc tính style,CSS hoặc Javascript , ví dụ như :
-``<p>My mother has <span style="color:blue">blue</span> eyes.</p>``\
-thì thẻ ``<span>`` định nghĩa thuộc tính ``style`` của nó là ``"color:blue"`` nghĩa là màu chữ blue là màu xanh biển.
-* Thẻ Semantic là thẻ có định nghĩa rõ ràng về thành phần rõ ràng và có thể sử dụng cho những thành phần khác trong web
+* **Semantic** nói một cách dễ hiểu hơn có nghĩa là chỉ cần đọc tên các element này chúng ta có thể hiểu được nội dung bên trong element này nói về cái gì,ví dụ: thẻ ``<header>`` dùng để định nghĩa đầu trang web hay thẻ ``<footer>`` dùng để định nghĩa cuối trang web
+* **Non-semantic** là những thẻ không có định nghĩa rõ ràng về công dụng của nó thường chỉ chứa nội dung cho các thẻ khác,ví dụ như : ``<div class="image">`` nó định nghĩa class image hay thẻ ``<span style="font-size:30px;font-family:monospace;">`` thẻ span chứa định nghĩa thuộc tính ``<style>``.
 
 Công cụ hỗ trợ 
 
@@ -235,7 +233,6 @@ Ngoài ra có một số thẻ phụ như:
 |`<section>`|Xác định một phần trong tài liệu|
 |`<summary>`|Hiển thị tiêu đề cho phần tử `<details>`|
 |`<time>`|Xác định ngày/giờ|
-
 
 ### V. Tại sao sử dụng Semantic Element và phần kết
 Trong HTML4 và các bản cũ hơn, các lập trình viên thường phải tạo tên các thuộc tính riêng để thiết kế các phần như: header, top, bottom, footer, menu, navigation, main, container, content, article, sidebar, topnav…
